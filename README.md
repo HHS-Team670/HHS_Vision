@@ -1,2 +1,2 @@
-# HHS_Vision
-Vision, taken from WPILIB --> Integrated with network tables, getAngle
+# Homestead_Vision
+Vision streaming software --> From WPILIB
