@@ -1,6 +1,6 @@
-#Setting up the RPI to stream using GStreamer
+# Setting up the RPI to stream using GStreamer
 
-use the following instructions to install G-Streamer on Raspberry Pi:
+Use the following instructions to install G-Streamer on Raspberry Pi:
 
   1) sudo nano /etc/apt/sources.list
 
