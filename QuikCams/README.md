@@ -14,4 +14,15 @@ Use the following instructions to install G-Streamer on Raspberry Pi:
   
   6) *Change the $1 variable in the runMJPG.sh file to the hostname of the driver station, then run the script on the RPI during startup
 
+# Setting up the DriverStation to recieve images from GStreamer
+
+Use the following instructions to install G-Streamer on Windows:
+
+  1) https://gstreamer.freedesktop.org/data/pkg/windows/1.12.4/
+  
+  2) Select the latest MSI program and install Gstreamer
+  
+  3) Verify location of Gstreamer folder in C: drive
+  
+  4) Put receiver.bat on the Desktop, and run it once on the field to instantly view all cameras
 
