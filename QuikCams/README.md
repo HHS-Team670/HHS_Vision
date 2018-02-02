@@ -11,5 +11,7 @@ Use the following instructions to install G-Streamer on Raspberry Pi:
   4) sudo apt-get install gstreamer1.0
 
   5) sudo apt-get install gstreamer-tools
+  
+  6) *Change the $1 variable in the runMJPG.sh file to the hostname of the driver station, then run the script on the RPI during startup
 
 
