@@ -12,8 +12,8 @@ Use the following instructions to install G-Streamer on Raspberry Pi:
 
   5) sudo apt-get install gstreamer-tools
   
-  6) transfer OGStreamer.py to RPI, and run on startup (TEST FOR GPIO PINOUT CONNECTION TO ROBORIO)
-
+  6) transfer OGStreamer.sh to startup on RPI
+  
 # Setting up the DriverStation to recieve images from GStreamer
 
 Use the following instructions to install G-Streamer on Windows:
