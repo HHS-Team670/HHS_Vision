@@ -13,6 +13,9 @@ sudo pip install pynetworktables
 echo -e "setting OGStreamer.sh permission"
 sudo chmod 777 ./OGStreamer.sh
 
+echo -e "moving python networktables script for sensor info..."
+sudo mv pynetworksensors.py /home/pi/
+
 echo -e "setting OGStreamer.sh as startup script (do not move this file)"
 sudo echo -e "#!/bin/sh\nexec $(pwd)/OGStreamer.sh\n" > /etc/init.d/launch_ogstreamer.sh
 sudo chmod +x /etc/init.d/launch_ogstreamer.sh
