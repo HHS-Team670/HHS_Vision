@@ -2,7 +2,7 @@
 
 Use the following instructions to install G-Streamer on Raspberry Pi:
 
-  1) Download this project throuhgh git clone
+  1) Download this project through git clone
   
   2) run installation.sh
   
