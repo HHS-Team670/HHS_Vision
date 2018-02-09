@@ -7,7 +7,7 @@ NetworkTables.initialize(server=ip)
 
 table = NetworkTables.getTable("rpi")
 
-lidarUnoVal=0
+lidar_left_val=0
 
 while True:
-    table.putNumber('lidar_uno', lidarUnoVal)
+    table.putNumber('lidar_left', lidar_left_val)
