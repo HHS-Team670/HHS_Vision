@@ -14,3 +14,6 @@ sudo chmod 777 ./launch_ogstreamer.sh
 echo -e "setting launch_ogstreamer.sh as startup script (do not move this file)"
 sudo mv launch_ogstreamer.sh /home/launch_ogstreamer.sh
 sudo chmod +x /home/launch_ogstreamer.sh
+
+sudo rm -r /etc/rc.local
+sudo mv rc.local /etc/rc.local
