@@ -10,7 +10,7 @@
 # bits.
 #
 # By default this script does nothing.
-/etc/init.d/launch_ogstreamer.sh
+/home/launch_ogstreamer.sh
 
 exit 0
 
