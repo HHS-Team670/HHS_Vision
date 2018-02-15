@@ -27,3 +27,8 @@ sudo mv launch_ogstreamer.sh /home/launch_ogstreamer.sh
 sudo chmod +x /home/launch_ogstreamer.sh
 
 echo -e "Setting startup script......."
+sudo rm -r /etc/rc.local
+sudo mv rc.local /etc/rc.local
+sudo chmod +x /etc/rc.local
+
+echo -e "Homestead Pi is installed, congratulations, enjoy your processing adventures"
