@@ -26,7 +26,7 @@ def show_webcam():
                         	maxX = x
                         	maxY = y
 		degreesPerPixel=0.04765625
-		targetX=640
+		targetX=320
 		rectMidX=maxX+(maxW/2)
 		rads = degreesPerPixel*(targetX - rectMidX)
 		table.putNumber('angle', rads)
