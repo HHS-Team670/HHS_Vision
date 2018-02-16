@@ -9,6 +9,7 @@ sudo apt install gstreamer1.0 gstreamer-tools
 
 echo "installing PIP for python"
 sudo apt install python-pip
+sudo apt install python-opencv
 
 echo "updating PIP for python"
 sudo pip install --upgrade pip
