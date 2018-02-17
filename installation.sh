@@ -32,4 +32,4 @@ sudo rm -r /etc/rc.local
 sudo mv rc.local /etc/rc.local
 sudo chmod +x /etc/rc.local
 
-echo "Homestead Pi is installed, congratulations, enjoy your processing adventures"
+echo "HOMESTEAD PI IS NOW INSTALLED! Please go to Raspi-Config, and enable boot on network connection, so it does not startup until it is connected to the FRC router!"
