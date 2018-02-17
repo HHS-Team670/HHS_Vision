@@ -28,8 +28,7 @@ sudo mv launch_ogstreamer.sh /home/launch_ogstreamer.sh
 sudo chmod +x /home/launch_ogstreamer.sh
 
 echo "Setting startup script......."
-sudo rm -r /etc/rc.local
-sudo mv rc.local /etc/rc.local
-sudo chmod +x /etc/rc.local
+sudo echo "\n/home/launch_ogstreamer.sh" >> ~/.bashrc
+
 
 echo "HOMESTEAD PI IS NOW INSTALLED! Please go to Raspi-Config, and enable boot on network connection, so it does not startup until it is connected to the FRC router!"
