@@ -2,6 +2,7 @@
 
 echo "adding deb to file"
 sudo echo "deb http://vontaene.de/raspbian-updates/ . main" >> /etc/apt/sources.list
+#IF GSTREAMER DOES NOT INSTALL, ADD THE CONTENT IN QUOTATIONS TO THE END OF THE FILE AT /etc/apt/sources.list
 
 echo "installing gstreamer"
 sudo apt update
