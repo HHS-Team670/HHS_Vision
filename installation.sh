@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "adding deb to file"
-sudo echo "\ndeb http://vontaene.de/raspbian-updates/ . main" >> /etc/apt/sources.list
+sudo echo "deb http://vontaene.de/raspbian-updates/ . main" >> /etc/apt/sources.list
 
 echo "installing gstreamer"
 sudo apt update
@@ -28,7 +28,7 @@ sudo mv launch_ogstreamer.sh /home/launch_ogstreamer.sh
 sudo chmod +x /home/launch_ogstreamer.sh
 
 echo "Setting startup script......."
-sudo echo "\n/home/launch_ogstreamer.sh" >> ~/.bashrc
+sudo echo "/home/launch_ogstreamer.sh" >> ~/.bashrc
 
 
-echo "HOMESTEAD PI IS NOW INSTALLED! Please go to Raspi-Config, and enable boot on network connection, so it does not startup until it is connected to the FRC router!"
+echo "HOMESTEAD PI IS NOW INSTALLED! Please go to Raspi-Config, and enable boot on network connection, so it does not startup until it is connected to the FRC router! ALSO PLEASE ENABLE AUTO LOGIN TO CONSOLE ON THE RASPBERRY PI THROUGH RASPI-CONFIG!"
