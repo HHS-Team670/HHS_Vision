@@ -6,7 +6,7 @@ sudo echo "deb http://vontaene.de/raspbian-updates/ . main" >> /etc/apt/sources.
 
 echo "installing gstreamer"
 sudo apt update
-sudo apt install gstreamer1.0 gstreamer-tools
+sudo apt-get install gstreamer1.0-tools
 
 echo "installing PIP for python"
 sudo apt install python-pip
