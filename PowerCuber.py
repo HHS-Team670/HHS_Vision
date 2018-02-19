@@ -16,7 +16,8 @@ def show_webcam():
 	        maxW = 0    
         	maxH = 0
 	        ret_val, img = cam.read()
-        	threshed_img = cv2.inRange(cv2.cvtColor(img, cv2.COLOR_BGR2HSV), lower, upper)          
+        	threshed_img = cv2.inRange(cv2.cvtColor(img, cv2.COLOR_BGR2HSV), lower, upper)
+		threshed_img = cv2.blur(threshed_img,(5,5))
         	contours, hierarchy = cv2.findContours(threshed_img, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
        		for c in contours:
                 	x, y, w, h = cv2.boundingRect(c)
