@@ -4,9 +4,15 @@ Use the following instructions to install G-Streamer on Raspberry Pi:
 
   1) Download this project through git clone
   
-  2) run installation.sh
+  2) add "deb http://vontaene.de/raspbian-updates/ . main" to the file /etc/apt/sources.list
+
+  3) run "sudo vi /boot/cmdline.txt", and add "boot_delay=20" before the 'rootfstype'
   
-  3) Make sure you setup the Windows streamer as well as the RoboRIO end (get networktable data)
+  4) run installation.sh
+  
+  5) Go to raspi-config, and set the system to auto login to the console as well as boot once the network is connected
+  
+  6) Make sure you setup the Windows streamer as well as the RoboRIO end (get networktable data)
   
 # Setting up the DriverStation to recieve images from GStreamer
 
