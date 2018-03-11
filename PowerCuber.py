@@ -26,22 +26,16 @@ def show_webcam():
                         	maxH = h
                         	maxX = x
                         	maxY = y
-		width, height = cv.GetSize(img)
 		degreesPerPixel=0.04765625
 		targetX=320
 		rectMidX=maxX+(maxW/2)
 		rads = degreesPerPixel*(targetX - rectMidX)
 		table.putNumber('angleToPowerCube', rads)
 		table.putNumber('x', maxX)
-		table.putNumber('frameWidth', width)
 		table.putNumber('y', maxY)
 		table.putNumber('w', maxW)
 		table.putNumber('cubeWidth', maxH)
-		cv2.rectangle(img, (maxX, maxY), (maxX+maxW, maxY+maxH), (0, 225, 0), 2)	
-		cv2.imshow('my webcam', img)
-		if cv2.waitKey(1) == 27:
-			break
-	cv2.destroyAllWindows()
+		cv2.rectangle(img, (maxX, maxY), (maxX+maxW, maxY+maxH), (0, 225, 0), 2)
 
 def main():
 	show_webcam()
