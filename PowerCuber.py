@@ -36,6 +36,10 @@ def show_webcam():
 		table.putNumber('w', maxW)
 		table.putNumber('cubeWidth', maxH)
 		cv2.rectangle(img, (maxX, maxY), (maxX+maxW, maxY+maxH), (0, 225, 0), 2)
+		cv2.imshow('my webcam', img)
+		if cv2.waitKey(1) == 27: 
+			break  # esc to quit
+	cv2.destroyAllWindows()
 
 def main():
 	show_webcam()
