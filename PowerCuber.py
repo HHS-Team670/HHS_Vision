@@ -8,7 +8,7 @@ def show_webcam():
         table = NetworkTables.getTable("raspberryPi")
         lower = np.array([19,96,0])
         upper = np.array([53,188,255])
-        cam = cv2.VideoCapture(1)
+        cam = cv2.VideoCapture(0)
         while True:
                 ret_val, img = cam.read()
                 maxX = 0
